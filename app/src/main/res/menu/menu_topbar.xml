@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mArquivo"
+        android:icon="@drawable/baseline_archive"
+        android:title="Arquivo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mAlterar"
+        android:icon="@drawable/baseline_alternate_email"
+        android:title="Alterar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mDelete"
+        android:icon="@drawable/baseline_delete"
+        android:title="delete"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mPesquisar"
+        android:icon="@drawable/baseline_search"
+        android:title="@string/pesquisar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mSair"
+        android:icon="@drawable/baseline_exit_to_app"
+        android:title="Sair"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
